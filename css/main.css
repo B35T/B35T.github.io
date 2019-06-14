@@ -1,0 +1,51 @@
+body {
+ background-color: #F5F5F5;
+ font-family: 'Kanit', sans-serif;
+}
+
+.pan {
+ padding-left: 20px;
+}
+
+.margin-logo {
+ margin-top: 50px;
+ margin-left: 60px;
+ 
+}
+
+.logo {
+ width: 40px;
+ height: 13px;
+}
+
+.a {
+ margin-top: 30px;
+ padding: 10px;
+ padding-left: 20px;
+ padding-right: 20px;
+ text-decoration: none;
+ color: rgb(32, 32, 32);
+}
+
+@media screen and (max-width: 500px) {
+ .hidden {
+  display: none;
+ } 
+}
+
+.active {
+ border-bottom: 3px solid transparent;
+ border-bottom-color: rgb(32, 123, 228);
+}
+
+.boder-bottom {
+ border-bottom: 2px solid transparent;
+ border-bottom-color: rgb(90, 29, 148);
+}
+
+.h1_400px {
+ width: 400px;
+}
+.center {
+ margin: auto;
+}
