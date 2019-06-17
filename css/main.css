@@ -55,3 +55,39 @@ body {
  margin-left: auto;
  margin-right: auto;
 }
+
+.img100p {
+ width: 100%;
+}
+
+@media screen and (max-width:400) {
+ .me {
+ background-color: violet;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+ .gridA {
+  width: 70%;
+ }
+}
+
+@media screen and (max-width: 1024px) {
+ .gridB {
+  width: 90%;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .gridC {
+  width: 100%;
+ }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+.grid-item {
+  padding: 20px;
+}
