@@ -91,3 +91,13 @@ body {
 .grid-item {
   padding: 20px;
 }
+
+
+.grid-containerApp {
+ display: grid;
+ grid-template-columns: auto auto auto;
+ padding: 20px;
+}
+.grid-itemApp {
+ padding: 20px;
+}
